@@ -9,3 +9,12 @@ export {
   multiply,
   splitEvery,
 } from "https://x.nest.land/ramda@0.27.0/source/index.js";
+
+const inspect = x => {
+  console.log(x)
+  return x
+}
+
+export {
+  inspect
+}

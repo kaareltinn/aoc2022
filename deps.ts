@@ -13,13 +13,15 @@ export {
   tail,
   negate,
   isEmpty,
+  uniq,
   zip,
   compose,
   splitEvery,
   repeat,
   map,
   take,
-  takeLast
+  takeLast,
+  startsWith
 } from "https://x.nest.land/ramda@0.27.0/source/index.js";
 
 const inspect = x => {
